@@ -60,8 +60,10 @@
 	<build>
 		<plugins>
 			<plugin>
+<!--	https://exerror.com/plugin-org-springframework-bootspring-boot-maven-plugin-not-found/			-->
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${project.parent.version}</version>
 			</plugin>
 		</plugins>
 	</build>

@@ -18,6 +18,7 @@ public class ResponseRest {
         mapa.put("tipo", tipo);
         mapa.put("codigo", codigo);
         mapa.put("dato", date);
+        metadata.add(mapa);
     }
 
 }
